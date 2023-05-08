@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+<TARIF>
+<NAME>Йога</NAME>
+<LEVEL> Начальный </LEVEL>
+<TIME> 14:30 - 16:30</TIME>
+<PRICE> 10 </PRICE>
+</TARIF>
+
+<TARIF>
+<NAME>Fly Yoga</NAME>
+<LEVEL>Средний </LEVEL>
+<TIME>12:30 - 14:30 </TIME>
+<PRICE> 15 </PRICE>
+</TARIF>
+
+<TARIF>
+<NAME>Теннис</NAME>
+<LEVEL> Начальный </LEVEL>
+<TIME> 18:30 - 20:00</TIME>
+<PRICE> 15 </PRICE>
+</TARIF>
+
+<TARIF>
+<NAME>Растяжка</NAME>
+<LEVEL> Начальный </LEVEL>
+<TIME> 11:30- 15:30</TIME>
+<PRICE> 10 </PRICE>
+</TARIF>
+
+<TARIF>
+<NAME>Hot Iron</NAME>
+<LEVEL> Тяжелый </LEVEL>
+<TIME>18:30 - 20:30</TIME>
+<PRICE> 25 </PRICE>
+</TARIF>
+
+
+<TARIF>
+<NAME>Zumba</NAME>
+<LEVEL> Начальный </LEVEL>
+<TIME> 13:30- 16:30</TIME>
+<PRICE> 12 </PRICE>
+</TARIF>
+
+<TARIF>
+<NAME>Похудейка</NAME>
+<LEVEL> Тяжелый </LEVEL>
+<TIME>17:30 - 19:30</TIME>
+<PRICE> 25 </PRICE>
+</TARIF>
+
+<TARIF>
+<NAME>Pilates</NAME>
+<LEVEL> Начальный </LEVEL>
+<TIME> 14:30- 16:30</TIME>
+<PRICE> 18 </PRICE>
+</TARIF>
+</CATALOG>
