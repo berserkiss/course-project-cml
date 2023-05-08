@@ -57,3 +57,6 @@ jobs:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: master
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Super-Linter
+  uses: super-linter/super-linter@v5.0.0
+
