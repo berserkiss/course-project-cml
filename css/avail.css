@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+ body {
+    font-family: "Rubik";
+    font-size: 100%;
+    font-weight: 400;
+    color: #fff;
+    background: linear-gradient(180deg, #181818 0%, #151515 100%);
+ }
+    .button-container
+    {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+    }
+    button{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      cursor: pointer;
+      font-size: 1.2rem;
+      height: 2.5rem;
+      border: none;
+      border-radius: 10px;
+      color: #fff;
+      background-color: #d73d3d;
+      outline: none;
+      box-shadow: 0 0.3rem rgba(146, 26, 26, 0.7);
+    }
+    button:hover
+    {
+      filter: brightness(110%);
+    }
+
+    button:active{
+      transform: translate(0,0.3rem);
+      box-shadow: rgba(255,255,255,0.70);
+    }
+    .table-wrap {
+      display: flex;
+    align-content: center;
+    justify-content: center;
+}
+table 
+{
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-top: 20px;
+  padding:0;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+ 
+table tr {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+ 
+table th, table td {
+  padding: 10px;
+  text-align: center;
+  border-right: 1px solid #ddd;
+}
+ 
+table th {
+  color: #fff;
+  background-color: #444;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+  table thead {
+    display: none;
+  }
+  table tr {
+    margin-bottom: 10px;
+    display: block;
+    border-bottom: 2px solid #ddd;
+  }
+  table tr th
+  {
+    display: block;
+    text-align: left;
+    font-size: 13px;
+    border-bottom: 1px dotted #ccc;
+    border-right: 1px solid transparent;
+  }
+  table td {
+    display: block;
+    text-align: right;
+    font-size: 13px;
+    border-bottom: 1px dotted #ccc;
+    border-right: 1px solid transparent;
+  }
+  table td:last-child {
+    border-bottom: 0;
+  }
+  table td:before {
+    content: attr(data-label);
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}

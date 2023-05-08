@@ -1,0 +1,139 @@
+.coach {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.coach__info {
+  margin-left: 20px;
+  width: 700px;
+}
+@media (max-width: 1200px) {
+  .coach__info {
+    width: 585px;
+  }
+}
+@media (max-width: 960px) {
+  .coach__info {
+    margin-left: 10px;
+    width: 365px;
+  }
+}
+@media (max-width: 640px) {
+  .coach__info {
+    margin-left: 10px;
+    width: 256px;
+  }
+}
+@media (max-width: 480px) {
+  .coach__info {
+    margin-left: 10px;
+    width: 143px;
+  }
+}
+.coach__title {
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+}
+@media (max-width: 640px) {
+  .coach__title {
+    font-size: 1.125rem;
+  }
+}
+@media (max-width: 480px) {
+  .coach__title {
+    font-size: 0.875rem;
+  }
+}
+.coach__subtitle {
+  font-size: 1.125rem;
+  padding-bottom: 20px;
+}
+@media (max-width: 480px) {
+  .coach__subtitle {
+    font-size: 0.875rem;
+  }
+}
+.coach__text {
+  font-size: 0.875rem;
+  padding-top: 5px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.icon__image {
+  width: 311px;
+  height: 373px;
+}
+@media (max-width: 960px) {
+  .icon__image {
+    width: 235px;
+    height: 282px;
+  }
+}
+@media (max-width: 640px) {
+  .icon__image {
+    width: 185px;
+    height: 222px;
+  }
+}
+@media (max-width: 480px) {
+  .icon__image {
+    width: 150px;
+    height: 180px;
+  }
+}
+.icon__name {
+  background-color: #d73d3d;
+  height: 77px;
+  width: 274px;
+  border-radius: 3px;
+  position: absolute;
+  top: 330px;
+}
+@media (max-width: 960px) {
+  .icon__name {
+    width: 221px;
+    height: 64px;
+    top: 250px;
+  }
+}
+@media (max-width: 640px) {
+  .icon__name {
+    width: 171px;
+    height: 51px;
+    top: 197px;
+  }
+}
+@media (max-width: 480px) {
+  .icon__name {
+    width: 138px;
+    height: 44px;
+    top: 160px;
+  }
+}
+.icon__name p {
+  font-size: 1.875rem;
+  font-weight: 500;
+  text-align: left;
+  margin: 0px 0px 0px 0px;
+  padding: 5px 5px 5px 4px;
+}
+@media (max-width: 960px) {
+  .icon__name p {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 640px) {
+  .icon__name p {
+    font-size: 1.125rem;
+  }
+}
+@media (max-width: 480px) {
+  .icon__name p {
+    font-size: 0.875rem;
+  }
+}/*# sourceMappingURL=coach.css.map */

@@ -1,0 +1,21 @@
+.custom-input {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+}
+.custom-input-label {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: inline-block;
+  cursor: pointer;
+  margin-bottom: 3px;
+  font-weight: 400;
+}
+.custom-input-field {
+  padding: 7px 8px;
+  background-color: #181818;
+  font-weight: 300;
+  color: #808080;
+}/*# sourceMappingURL=input.css.map */

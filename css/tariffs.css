@@ -1,0 +1,92 @@
+.tariffs {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 83px;
+}
+.tariffs .tariffs__item-description, .tariffs .tariffs__item-duration {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+.tariffs .container {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 0;
+}
+.tariffs__title {
+  margin-bottom: 50px;
+}
+.tariffs__items {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  row-gap: 60px;
+  -moz-column-gap: 60px;
+       column-gap: 60px;
+  margin-bottom: 84px;
+}
+.tariffs__item {
+  width: 240px;
+  padding: 18px 7px 21px 7px;
+  border-radius: 10px;
+}
+.tariffs__item:nth-child(1) {
+  background-color: #d73d3d;
+  box-shadow: -10px 4px 30px rgba(215, 61, 61, 0.15);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.tariffs__item:nth-child(1):hover {
+  transform: scale(1.1);
+  box-shadow: -10px 4px 30px rgba(215, 61, 61, 0.1);
+}
+.tariffs__item:nth-child(2) {
+  background-color: #258181;
+  box-shadow: 0px 4px 30px rgba(37, 129, 129, 0.15);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.tariffs__item:nth-child(2):hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 30px rgba(37, 129, 129, 0.1);
+}
+.tariffs__item:nth-child(3) {
+  background-color: #17870d;
+  box-shadow: 10px 4px 30px rgba(23, 135, 13, 0.15);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.tariffs__item:nth-child(3):hover {
+  transform: scale(1.1);
+  box-shadow: 10px 4px 30px rgba(23, 135, 13, 0.1);
+}
+.tariffs__item-label {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+.tariffs__item-duration {
+  margin-bottom: 30px;
+}
+.tariffs__item-description {
+  margin-bottom: 44px;
+}
+.tariffs__item-price {
+  text-align: right;
+  font-weight: 500;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  padding-right: 16px;
+}
+.tariffs__benefits {
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+}
+@media (max-width: 640px) {
+  .tariffs__benefits {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+  }
+}/*# sourceMappingURL=tariffs.css.map */

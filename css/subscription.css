@@ -1,0 +1,68 @@
+.subscription {
+  height: 120px;
+  background-color: #181818;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+.subscription__button {
+  padding-top: 40px;
+  padding-right: 20px;
+}
+@media (max-width: 640px) {
+  .subscription__button {
+    padding-right: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .subscription__button {
+    position: absolute;
+    left: 53.5%;
+  }
+}
+
+.left {
+  font-weight: 300;
+  font-size: 0.875rem;
+  padding-left: 9px;
+}
+.left__label {
+  padding: 6px 0px 16px 0px;
+  line-height: 17px;
+}
+.left__price {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #258181;
+  padding-bottom: 8px;
+  line-height: 28px;
+}
+@media (max-width: 960px) {
+  .left__price {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 640px) {
+  .left__price {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 480px) {
+  .left__price {
+    font-size: 1.125rem;
+  }
+}
+.left span {
+  color: #ffffff;
+  line-height: 17px;
+}
+.left__year-price {
+  padding-bottom: 3px;
+  line-height: 17px;
+}
+.left__benefit {
+  padding-bottom: 8px;
+  line-height: 17px;
+}/*# sourceMappingURL=subscription.css.map */

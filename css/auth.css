@@ -1,0 +1,65 @@
+.auth {
+  padding: 57px 0px;
+}
+.auth .container {
+  max-width: 550px;
+}
+@media (max-width: 640px) {
+  .auth .container {
+    max-width: 464px;
+  }
+}
+@media (max-width: 480px) {
+  .auth .container {
+    max-width: 300px;
+  }
+}
+.auth__form {
+  padding: 22px 32px 30px 32px;
+  background-color: #282828;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+@media (max-width: 480px) {
+  .auth__form {
+    padding: 22px 9px 34px 9px;
+  }
+}
+.auth__form-header {
+  margin-bottom: 33px;
+}
+.auth__form-header-logo {
+  margin: 0 auto 15px auto;
+  width: 50px;
+  height: 50px;
+}
+.auth__form-header-logo svg {
+  width: 100%;
+  height: 100%;
+}
+.auth__form-header-title {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 500;
+}
+@media (max-width: 640px) {
+  .auth__form-header-title {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
+}
+@media (max-width: 480px) {
+  .auth__form-header-title {
+    font-size: 1.125rem;
+    line-height: 1.3125rem;
+  }
+}
+.auth__form-input {
+  margin-bottom: 21px;
+}
+.auth__form-input:last-child {
+  margin-bottom: 41px;
+}/*# sourceMappingURL=auth.css.map */

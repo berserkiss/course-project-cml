@@ -1,0 +1,25 @@
+.custom-badge {
+  position: relative;
+  display: inline-block;
+  padding: 4px 27px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.custom-badge__text {
+  color: #000000;
+  line-height: 1.75rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+@media (max-width: 640px) {
+  .custom-badge__text {
+    font-size: 1rem;
+    line-height: 1.1875rem;
+  }
+}
+.custom-badge__check {
+  display: inline-block;
+  position: absolute;
+  right: -12px;
+  bottom: -12px;
+}/*# sourceMappingURL=badge.css.map */
