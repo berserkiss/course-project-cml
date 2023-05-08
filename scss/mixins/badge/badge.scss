@@ -1,0 +1,28 @@
+@import "../../variables.scss";
+@import "../../media.scss";
+.custom-badge  {
+    position: relative;
+    display: inline-block;
+    padding: 4px 27px; 
+    background-color: $white;
+    border-radius: $border-radius-10;
+
+    &__text { 
+        color: $full-black;
+        line-height: $line-height-28;
+        font-size: $font-size-24;
+        font-weight: $font-weight-500;
+
+        @media (max-width: $tablet-width-small){
+            font-size: $font-size-16;
+            line-height: $line-height-19;
+        }
+    }
+
+    &__check {
+        display: inline-block;
+        position: absolute;
+        right: -12px;
+        bottom: -12px;
+    }
+}

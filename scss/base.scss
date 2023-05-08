@@ -1,0 +1,52 @@
+@import "./variables.scss";
+@import "./media.scss";
+@mixin calc-font-size($min-vw, $max-vw, $min-font-size, $max-font-size){
+    font-size: calc(#{$min-font-size}rem + ((100vw - #{$min-vw}rem) / (#{$max-vw} - #{$min-vw})) * (#{$max-font-size} - #{$min-font-size})) !important;
+}
+
+html {
+    font-family: "Rubik";
+    font-size: 100%;
+    font-weight: 400;
+    color: $white;
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+
+    header {
+        flex-shrink: 0;
+    }
+    main {
+        background: $main-background;
+        flex-grow: 1;
+        flex-shrink: 0;
+    }
+    footer {
+        flex-shrink: 0;
+    }
+}
+
+.container {
+    max-width: 1136px;
+    margin: 0 auto;
+    padding: 0 12px;
+
+    @media (max-width: $desktop-width) {
+        max-width: 960px;
+    }
+
+    @media (max-width: $tablet-width) {
+        max-width: 640px;
+    }
+
+    @media (max-width: $tablet-width-small) {
+        max-width: 480px;
+    }
+    @media (max-width: $mobile-width) {
+        max-width: 320px;
+    }
+}
